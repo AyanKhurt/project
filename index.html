@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Poetry Workshop</h1>
+    <p>we will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+    <p>please note that the following events are free a members:</p>
+    <ul>
+        <li>A poetic Perspective</li>
+        <li>Wait Whiteman at War</li>
+        <li>Found poems and Outsider Poetry</li>
+    </ul>
+        <table>
+            <tbody>
+                <tr class="head">
+                    <th></th>
+                    <th>New York</th>
+                    <th>Chicago</th>
+                    <th>San Franchiso</th>
+                </tr>
+                <tr>
+                    <th>A Poetic Perspective</th>
+                    <td>Sat, 4 Feb 2012
+                        <br>
+                        11am - 2pm</td>
+                        <td> Sat, 3 Mar 2012
+                            <br>
+                        11am - 2pm
+                        </td>
+                        <td>
+                            Sat, 17 Mar 2012
+                            <br>
+                            11am - 2pm
+                        </td>
+                </tr>
+                <tr>
+                 <th>Walt Whitman at War</th>
+                 <td>Sat, 7 Apr 2012
+                    <br>
+                    11am - 1pm</td>
+                 <td>Sat, 5 May 2012
+                    <br>
+                    11am - 1pm</td>
+                 <td>Sat, 19 May 2012
+                    <br>
+                    11am - 1pm</td>
+                    </tr>
+                    <tr class="even">
+                    <th>Found Poems & Outsider Poetry</th>
+                    <td>	Sat, 9 Jun 2012
+                        <br>
+                        11am - 2pm</td>
+                    <td>	Sat, 9 Jun 2012
+                        <br>
+                        11am - 2pm</td>
+                    <td>	Sat, 7 Jul 2012
+                        <br>
+                        11am - 2pm</td>
+                </tr>
+                <tr class="even">
+                    <th>Natural Death: An Exploration</th>
+                    <td>	Sat, 4 Aug 2012
+                        <br>
+                        11am - 4pm</td>
+                        <td>Sat, 8 Sep 2012
+                            <br>
+                            11am - 4pm</td>
+                            <td>Sat, 15 Sep 2012
+                                <br>
+                                11am - 4pm</td>
+                </tr>
+                </tbody>
+        </table> 
+        <form action="">
+            <fieldset>
+                <legend>Register your interset</legend>
+                <p><label for="Name" class="title"> Your Name </label>
+                <input type="text" name="name" id="Name"><br />
+                <label for="Email"  class="title">Your Email</label>
+                <input type="text" name="Email" id="Email"</p>
+                <p><label for="location" class="title">Your closest center:</label>
+                    <select name="location" id="location">
+                    <option value="ny">New York</option>
+                    <option value="il">Chicago</option>
+                    <option value="ca">San Francisco</option>
+                    </select></p>
+                    <span class="title">Are you a member?</span>
+                    <label><input type="radio" name="member" value="yes" /> Yes</label>
+                    <label><input type="radio" name="member" value="no" /> No</label></p>
+            </fieldset>
+            <div class="submit"><input type="submit" value="Register" /></div>
+        </form>
+</body>
+</html>
